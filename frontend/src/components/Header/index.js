@@ -50,13 +50,15 @@ export default function Header() {
                         </S.StyledLink>
                     </li>
                     <li>
-                        <S.ButtonLink activeClassName="is-active" to="/login">
+                        <a href='https://github.com/login/oauth/access_token'>
+
                             Entrar
                             <FontAwesomeIcon
                                 icon={faGithub}
                                 style={{ marginLeft: '10px' }}
                             />
-                        </S.ButtonLink>
+
+                        </a>
                     </li>
                 </ul>
             </S.Menu>
